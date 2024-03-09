@@ -1,0 +1,29 @@
+{
+  "name": "loginpage",
+  "version": "1.0.0",
+  "description": "understanding authentication in node.js by the full stack junkie",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "abhisheknyamati",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongodb-session": "^2.2.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "mongodb": "^6.4.0",
+    "mongoose": "^8.2.1",
+    "nodemon": "^3.1.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/connect-mongodb-session": "^2.4.7",
+    "@types/express": "^4.17.21",
+    "@types/express-session": "^1.18.0"
+  }
+}
